@@ -7,6 +7,8 @@ import {BsTwitter} from 'react-icons/bs'
 import {AiFillFacebook} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
 import {AiOutlineRight} from 'react-icons/ai'
+
+
 const Footer = () => {
   return (
     <section className='footer'>
