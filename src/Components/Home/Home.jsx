@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './home.css'
 import video from '../../Assets/video2.mp4'
 import {ImLocation} from 'react-icons/im'
@@ -8,8 +8,15 @@ import {FaTripadvisor} from 'react-icons/fa'
 import {TfiInstagram} from 'react-icons/tfi'
 import {TbApps} from 'react-icons/tb'
 import {AiOutlineUnorderedList} from 'react-icons/ai'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Home = () => {
+
+useEffect(() =>{
+  Aos.init({duration : 3000})
+}, []) 
+
   return (
    <section className='home'>
     <div className='overlay'></div>
