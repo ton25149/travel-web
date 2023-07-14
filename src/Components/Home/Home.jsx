@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div className="cardDiv grid">
         <div className="destinationInput">
-          <label htmlFor="city">Search your destination: asdasdasdasd</label>
+          <label htmlFor="city">Search your destination: Patsawee</label>
           <div className="input flex">
             <input type="text" placeholder='Enter Name here'/>
             <ImLocation className="icon"/>
