@@ -1,3 +1,4 @@
+
 import React, {useEffect} from 'react'
 import "./footer.css";
 import video2 from "../../Assets/video2.mp4";
@@ -9,7 +10,6 @@ import { BsLinkedin } from "react-icons/bs";
 import { AiOutlineRight } from "react-icons/ai";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-
 
 const Footer = () => {
 
