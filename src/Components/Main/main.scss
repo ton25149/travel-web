@@ -160,3 +160,31 @@
         }
     }
  }
+
+ @media screen and (min-width: 500px) {
+    .title{
+        font-size: 1.3rem;
+        &::after{
+            width: 155px !important;
+        }
+    }
+    .secContent{
+        grid-template-columns: repeat(2,1fr);
+
+        .singleDestination{
+            height: auto;
+        }
+    }
+ }
+
+ @media screen and (min-width: 840px) {
+
+    .secContent{
+        grid-template-columns: repeat(3,1fr);
+
+        .singleDestination{
+            height: auto;
+        }
+    }
+    
+ }
