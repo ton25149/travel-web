@@ -14,9 +14,9 @@ import 'aos/dist/aos.css'
 const Home = () => {
 
 useEffect(() =>{
+
   Aos.init({duration: 2000})
 })
-
   return (
    <section className='home'>
     <div className='overlay'></div>

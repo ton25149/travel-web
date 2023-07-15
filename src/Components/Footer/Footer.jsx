@@ -1,3 +1,4 @@
+
 import React, {useEffect} from 'react'
 import "./footer.css";
 import video2 from "../../Assets/video2.mp4";
